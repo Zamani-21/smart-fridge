@@ -58,6 +58,7 @@ function App() {
       <Title />
       <header className="App-header">
         <Webcam
+          className="col-12"
           ref={webcamRef}
           muted={true}
           style={{
@@ -75,6 +76,7 @@ function App() {
         />
 
         <canvas
+          className="col-12"
           ref={canvasRef}
           style={{
             position: "absolute",
